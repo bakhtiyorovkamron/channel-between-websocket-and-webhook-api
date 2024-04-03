@@ -2,6 +2,8 @@ package handler
 
 type handlerV1 struct{}
 
+var myChannel = make(chan map[string]interface{})
+
 // NewHandlerV1 is a constructor for handlerV1
 type HandlerV1Config struct{}
 
