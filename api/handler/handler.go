@@ -4,7 +4,6 @@ type handlerV1 struct{}
 
 var myChannel = make(chan map[string]interface{})
 
-// NewHandlerV1 is a constructor for handlerV1
 type HandlerV1Config struct{}
 
 func NewHandlerV1(h *HandlerV1Config) *handlerV1 {
