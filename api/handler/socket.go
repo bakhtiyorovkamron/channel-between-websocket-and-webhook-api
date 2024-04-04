@@ -36,3 +36,4 @@ func (h *handlerV1) GetLocation(c *gin.Context) {
 		conn.WriteJSON(resp)
 	}
 }
+func ReturnMeBack()
