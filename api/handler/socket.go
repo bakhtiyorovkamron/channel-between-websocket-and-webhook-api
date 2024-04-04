@@ -32,7 +32,7 @@ func (h *handlerV1) GetLocation(c *gin.Context) {
 	}
 	defer conn.Close()
 	for {
-		resp := <-myChannel
+		resp := <myChannel
 		conn.WriteJSON(resp)
 	}
 }
