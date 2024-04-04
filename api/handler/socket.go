@@ -36,5 +36,3 @@ func (h *handlerV1) GetLocation(c *gin.Context) {
 		conn.WriteJSON(resp)
 	}
 }
-
-// Path: api/handler/socket.go
