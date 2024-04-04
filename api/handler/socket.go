@@ -37,4 +37,6 @@ func (h *handlerV1) GetLocation(c *gin.Context) {
 	}
 }
 
-// Path: api/handler/socket.go
+func New() {
+
+}
